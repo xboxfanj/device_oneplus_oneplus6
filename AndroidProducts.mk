@@ -15,4 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_fajita.mk
+    $(LOCAL_DIR)/pa_fajita.mk
+	
+COMMON_LUNCH_CHOICES := \
+    pa_fajita-user \
+    pa_fajita-userdebug \
+    pa_fajita-eng
