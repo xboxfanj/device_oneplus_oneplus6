@@ -1,6 +1,7 @@
 #!/bin/bash
 #
 # Copyright (C) 2018-2019 The LineageOS Project
+# Copyright (C) 2019 The Paranoid Android Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -18,10 +19,10 @@
 set -e
 
 # Required!
-export DEVICE=fajita
+export DEVICE=oneplus6t
 export DEVICE_COMMON=sdm845-common
 export VENDOR=oneplus
 
-export DEVICE_BRINGUP_YEAR=2018
+export DEVICE_BRINGUP_YEAR=2019
 
 "./../../${VENDOR}/${DEVICE_COMMON}/setup-makefiles.sh" "$@"
