@@ -27,6 +27,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),fajita)
+#ifeq ($(TARGET_DEVICE),fajita)
 include $(call all-makefiles-under,$(LOCAL_PATH))
-endif
+#endif

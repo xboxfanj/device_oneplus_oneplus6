@@ -17,7 +17,7 @@
 # Inherit from oneplus sdm845-common
 -include device/oneplus/sdm845-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/oneplus/oneplus6t
+DEVICE_PATH := device/oneplus/oneplus6
 
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE += $(DEVICE_PATH)/framework_manifest.xml

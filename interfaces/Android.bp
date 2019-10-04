@@ -1,4 +1,4 @@
 hidl_package_root {
     name: "vendor.oneplus",
-    path: "device/oneplus/oneplus6t/interfaces",
+    path: "device/oneplus/oneplus6/interfaces",
 }

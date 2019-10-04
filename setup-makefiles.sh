@@ -19,7 +19,7 @@
 set -e
 
 # Required!
-export DEVICE=oneplus6t
+export DEVICE=oneplus6
 export DEVICE_COMMON=sdm845-common
 export VENDOR=oneplus
 
